@@ -1,0 +1,50 @@
+.formDiv {
+    width: 40%;
+    height: 10rem;
+    margin-left: 30%;
+    margin-top: 124px;
+    border: 1px solid rgb(196, 192, 192);
+}
+.input {
+    width: 12%;
+    height: 2rem;
+    margin-left: 1%;
+    margin-top: 2rem;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    text-align: center;
+    letter-spacing: 0.1cm;
+    font-size: 15px;
+}
+.input::placeholder {
+    text-align: center;
+    letter-spacing: 0.1cm;
+    font-size: 15px;
+}
+.submit {
+    margin-top: 1rem;
+    width: 15%;
+    height: 2rem;
+    border: none;
+    color: whitesmoke;
+    border-radius: 3px;
+    background-color: rgb(39, 39, 206);
+}
+.detailDiv {
+    width: 40%;
+    height: 70px;
+    display: flex;
+    margin-left: 30%;
+    margin-top: 3rem;
+    color: blue;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 3px rgb(184, 182, 182);
+}
+.delete {
+    cursor: pointer;
+    color: red;
+    text-decoration: underline;
+}
+.text {
+    padding-top: 3rem;
+}
